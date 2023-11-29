@@ -12,7 +12,7 @@ import { AuthContext } from "./context/AuthContext";
 import { hotelColumns, roomColumns, userColumns } from "./datatablesource";
 import NewHotel from "./pages/newHotel/NewHotel";
 import NewRoom from "./pages/newRoom/NewRoom";
-
+// routes are not working perfectly : need fix 
 function App() {
   const { darkMode } = useContext(DarkModeContext);
 
